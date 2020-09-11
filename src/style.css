@@ -1,0 +1,51 @@
+#app{
+    width:800px;
+    margin: 0 auto;
+}
+#board{
+    content: "";
+    display: block;
+    width:416px;
+    height: 416px;;
+    margin: 0 auto;
+    background-image: url(field.png);
+}
+
+.cell{
+    content: "";
+    display: inline-block;
+    width: 138px;
+    height: 136px;
+}
+
+.gameSettings{
+    width:300px;
+    margin: 10px auto;
+}
+
+.newGameButton{
+    display: block;
+    margin: 10px auto;
+}
+#victoryScreen{
+    margin: auto;
+    width:400px;
+    height: 400px;
+    background-color: gray;
+    overflow-y: auto;
+}
+.result{
+    margin: 10px auto;
+    font-size: 30px;
+}
+
+.hiddenElement{
+    display: none;
+}
+
+.circle{
+  background-image: url('circle.png');
+}
+.cross{
+    background-image: url('cross.png');
+}
