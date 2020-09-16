@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Крестики-нолики</title>
+</head>
+
+<body>
+    <div id="app">
+        <div class="head">
+            <h2>Крестики-нолики</h2>
+            <form>
+                <div class="gameSettings">
+                    <div class="settingSection">
+                        <label>Выбор очередности: </label>
+                        <input type="radio" name="turn" value="first" checked>
+                        <label>1-ый</label>
+                        <input type="radio" name="turn" value="second">
+                        <label>2-ой</label>
+                    </div>
+                    <div class="settingSection">
+                        <label>Выбор знака: </label>
+                        <input type="radio" name="figure" value="x" checked>
+                        <label>X</label>
+                        <input type="radio" name="figure" value="o">
+                        <label>O</label>
+                    </div>
+                </div>
+            </form>
+            <button class = "newGameButton" onclick="startNewGame()">Начать новую серию игр</button>
+        </div>
+    </div>
+
+    <script src="bundle.js"></script>
+</body>
+
+</html>

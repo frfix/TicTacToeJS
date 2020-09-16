@@ -1,8 +1,9 @@
 "use strict";
-import {NoughtsAndCrossesGame} from "./NoughtsAndCrossesGame.js";
+import NoughtsAndCrossesGame from "./NoughtsAndCrossesGame.js";
 
 var game;
 window.startNewGame = () => {
+    console.log("1233");
     if(document.getElementById("board")){
         document.getElementById("board").remove();
     }

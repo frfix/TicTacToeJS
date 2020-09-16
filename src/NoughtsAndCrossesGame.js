@@ -4,7 +4,7 @@ import { Ai } from "./Ai.js";
 
 //Основной класс игры
 
-export class NoughtsAndCrossesGame {
+export default class NoughtsAndCrossesGame {
     constructor(props) {
         this.statesEnum = { playing: "playing", gameover: "gameover" };
         this.state = this.statesEnum.playing;
